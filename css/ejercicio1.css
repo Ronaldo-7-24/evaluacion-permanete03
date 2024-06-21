@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecera {
+    background-image: url('/imagen/imagen02');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+.cabecera h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.titulo1 {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.titulo1 h2 {
+    margin-top: 0;
+}
+
+.tabla-datos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    background-color: #e0e0e0;
+}
+
+.suscripcion {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.suscripcion h3 {
+    margin-top: 0;
+}
+
+.suscripcion form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.suscripcion label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.suscripcion input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.suscripcion button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.suscripcion button:hover {
+    background-color: #555;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
